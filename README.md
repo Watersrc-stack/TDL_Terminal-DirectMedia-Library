@@ -42,15 +42,16 @@ To build and use TDL, you need the following dependencies:
 - pkg-config
 - libalsa
 - libevdev
+- nlohmann-json
 
 if you want to install dependancies on ubuntu you can use the following command:
 ```
-sudo apt-get install cmake g++ libfreetype6-dev libpng-dev libopenal-dev libsndfile1-dev pkg-config libalsa-ocaml-dev libevdev-dev
+sudo apt-get install cmake g++ libfreetype6-dev libpng-dev libopenal-dev libsndfile1-dev pkg-config libalsa-ocaml-dev libevdev-dev nlohmann-json3-dev
 ```
 
 On ArchLinux you can use the following command:
 ```
-sudo pacman -S cmake gcc freetype2 libpng openal libsndfile pkg-config alsa-lib libevdev
+sudo pacman -S cmake gcc freetype2 libpng openal libsndfile pkg-config alsa-lib libevdev nlohmann-json
 ```
 
 ### From AUR
